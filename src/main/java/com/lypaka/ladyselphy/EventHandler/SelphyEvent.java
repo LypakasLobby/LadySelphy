@@ -4,32 +4,23 @@ import java.time.LocalDateTime;
 
 public class SelphyEvent {
 
-    private final LocalDateTime cooldownExpires;
     private int maxSteps;
     private int currentSteps;
     private LocalDateTime timerExpires;
     private final String speciesRequested;
 
-    public SelphyEvent (LocalDateTime cooldownExpires, int maxSteps, int currentSteps, String speciesRequested) {
+    public SelphyEvent (int maxSteps, int currentSteps, String speciesRequested) {
 
-        this.cooldownExpires = cooldownExpires;
         this.maxSteps = maxSteps;
         this.currentSteps = currentSteps;
         this.speciesRequested = speciesRequested;
 
     }
 
-    public SelphyEvent (LocalDateTime cooldownExpires, LocalDateTime timerExpires, String speciesRequested) {
+    public SelphyEvent (LocalDateTime timerExpires, String speciesRequested) {
 
-        this.cooldownExpires = cooldownExpires;
         this.timerExpires = timerExpires;
         this.speciesRequested = speciesRequested;
-
-    }
-
-    public LocalDateTime getCooldownExpires() {
-
-        return this.cooldownExpires;
 
     }
 
