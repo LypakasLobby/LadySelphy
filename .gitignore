@@ -61,3 +61,15 @@ build/resources/main/META-INF/mods.toml
 build/resources/main/pack.mcmeta
 build/tmp/compileJava/previous-compilation-data.bin
 build/tmp/jar/MANIFEST.MF
+build/tmp/compileJava/compileTransaction/stash-dir/StorageSaveTask.class.uniqueId4
+build/tmp/compileJava/compileTransaction/stash-dir/StorageSaveTask$1.class.uniqueId1
+build/tmp/compileJava/compileTransaction/stash-dir/ServerStartedListener.class.uniqueId10
+build/tmp/compileJava/compileTransaction/stash-dir/SelphyEventHandler.class.uniqueId3
+build/tmp/compileJava/compileTransaction/stash-dir/ReloadCommand.class.uniqueId8
+build/tmp/compileJava/compileTransaction/stash-dir/LadySelphyCommand.class.uniqueId5
+build/tmp/compileJava/compileTransaction/stash-dir/LadySelphy.class.uniqueId7
+build/tmp/compileJava/compileTransaction/stash-dir/ConfigGetters.class.uniqueId2
+build/tmp/compileJava/compileTransaction/stash-dir/ConfigGetters$3.class.uniqueId6
+build/tmp/compileJava/compileTransaction/stash-dir/ConfigGetters$2.class.uniqueId9
+build/tmp/compileJava/compileTransaction/stash-dir/ConfigGetters$1.class.uniqueId0
+build/libs/LadySelphy-0.0.2-ALPHA.jar

@@ -23,7 +23,7 @@ public class LadySelphy {
     public LadySelphy() throws IOException, ObjectMappingException {
 
         Path dir = ConfigUtils.checkDir(Paths.get("./config/ladyselphy"));
-        String[] files = new String[]{"ladyselphy.conf"};
+        String[] files = new String[]{"ladyselphy.conf", "storage.conf"};
         configManager = new BasicConfigManager(files, dir, LadySelphy.class, MOD_NAME, MOD_ID, logger);
         configManager.init();
         ConfigGetters.load();
